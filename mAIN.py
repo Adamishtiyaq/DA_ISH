@@ -11,8 +11,10 @@ class DA:
 
 
 
-      
+          print(df.iloc[2:120,0:18])
+
+
 
         
-B=DA
+B=DA()
 B.read_data()
