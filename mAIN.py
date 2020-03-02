@@ -4,6 +4,7 @@ import numpy as np
 
 
 class DA:
+    #read csv
       def read_data(self):
           file = 'Worksheet in D  Lesson 2019 Applied Sriptong Using Python Python Elective (IT49450) - Project_14Mar19.csv'
           df = pd.read_csv(file)
@@ -11,7 +12,7 @@ class DA:
 
 
 
-          print(df.iloc[2:120,0:18])
+          print(df.iloc[2:120,0:19])
 
 
 
